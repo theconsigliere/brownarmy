@@ -5,7 +5,7 @@ description: "Ladies, gentlemen, selibate sloths, non-binary biscuits, and
   which literally several people have been looking forward to. "
 author: "'Non Stop' Nick Trott"
 date: 2021-09-07T21:22:19.878Z
-image: /assets/images/posts/chode.jpg
+image: /assets/images/posts/go.jpg
 imageAlt: Chode in the hole
 tags:
   - post
