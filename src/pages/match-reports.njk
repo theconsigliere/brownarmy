@@ -14,7 +14,7 @@ eleventyNavigation:
                         {% for post in latest_post.slice(0,1)%}
                             <div class="latest-post-item">    
                                   <h4 class="white moto--label">LATEST REPORT</h4>                        
-                                <h1 class="h2 snippet__title">{{post.data.title}}</h1>
+                                <h1 class="h3 snippet__title">{{post.data.title}}</h1>
                                 <p class="snippet__meta">by <span>{{post.data.author}}</span> on <span>{{ post.date | postDate }}</span></p>
                                 <p class="snippet__body">{{post.data.description}}</p>
                                 <a href="{{post.url}}" class="btn">Continue reading</a>
