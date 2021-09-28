@@ -141,3 +141,11 @@ p.al-snippet__meta {
         border: none;
     }
 }
+
+.article-title {
+    text-align: center;
+
+    @media (min-width: #{$screen-lg}) {
+       text-align: left;
+    }
+}
