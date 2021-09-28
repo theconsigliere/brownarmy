@@ -144,8 +144,6 @@ p.al-snippet__meta {
 
 .article-title {
     text-align: center;
-
-    @media (min-width: #{$screen-lg}) {
-       text-align: left;
-    }
+    line-height: 1;
+    margin-bottom: 1rem;
 }
