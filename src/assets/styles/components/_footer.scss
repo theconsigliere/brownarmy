@@ -1,0 +1,19 @@
+.footer {
+    font-size: 0.875rem;
+    padding: $spacing-y 0;
+    background-color: $gray-lightest;
+
+    &__inner {
+       @include center-between-column;
+
+        @media (min-width: #{$screen-lg}) {
+            @include center-between;
+        }
+    }
+}
+
+
+.footer-cred {
+    color: var(--gold);
+    text-decoration: none;
+}

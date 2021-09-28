@@ -1,0 +1,143 @@
+.main-article {
+    p {
+        margin-bottom: 1.5rem;
+    }
+
+    blockquote {
+        margin: 0 0 2rem;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+}
+
+article.snippet {
+    padding: 1rem 0;
+    overflow: hidden;
+
+    @media (min-width: #{$screen-md}) {
+        padding: 1rem;
+    }
+
+    @media (min-width: #{$screen-xl}) {
+        padding: 2rem 1rem;
+    }
+
+    .snippet__title {
+        margin-top: 2rem;
+    }
+
+    .snippet__meta {
+        color: var(--gold);
+    }
+
+    .snippet__body {
+        max-width: 90%;
+        margin-top: .5rem;
+    }
+
+    .post-link {
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+img.default-blog {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.article-body-section {
+    @include start-between-column;
+    margin-top: 2rem;
+
+    @media (min-width: #{$screen-lg}) {
+        @include start-between;
+    }
+}
+
+.ab-text-area {
+    width: 100%;
+    padding: 0;
+
+    @media (min-width: #{$screen-lg}) {
+        padding: 0 2rem 0 0;
+        width: 80%;
+    }
+}
+
+.ab-listings {
+    width: 100%;
+    border: 2px solid var(--gold);
+
+    @media (min-width: #{$screen-lg}) {
+        width: 20%;
+    }
+}
+.main-article__figure {
+    width: 100%;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.main-article-top {
+    margin: 5rem 0;
+    @include center-between-column;
+}
+
+p.article-listing-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin: 0;
+    padding: 1rem;
+    background: var(--gold);
+    color: var(--white);
+}
+
+a.article-listing-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.al-last-link {
+    background: var(--brown);
+    padding: 1rem;
+    width: 100%;
+}
+
+p.al-snippet__title {
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+p.al-snippet__meta {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.al-snippet {
+   
+    a {
+        font-size: .8rem;
+        margin: 0;
+    }
+}
+
+.article-list--snippet {
+    border-bottom: 2px solid var(--gold);
+    padding: 1rem;
+
+    &:last-child {
+        border: none;
+    }
+}

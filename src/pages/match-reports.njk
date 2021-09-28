@@ -1,0 +1,58 @@
+---
+layout: base
+permalink: /match-reports/
+eleventyNavigation:
+  key: Match Reports
+---
+
+    <div class="mr-container">
+        <div class="mr-container-inner">
+            <div class="mr-item">
+                
+<div class="mr-item-inner">
+                    {% set latest_post = collections.posts  | reverse %}
+                        {% for post in latest_post.slice(0,1)%}
+                            <div class="latest-post-item">    
+                                  <h4 class="white moto--label">LATEST REPORT</h4>                        
+                                <h1 class="snippet__title">{{post.data.title}}</h1>
+                                <p class="snippet__meta">by <span>{{post.data.author}}</span> on <span>{{ post.date | postDate }}</span></p>
+                                <p class="snippet__body">{{post.data.description}}</p>
+                                <a href="{{post.url}}" class="btn">Continue reading</a>
+                            </div>
+                        {% endfor %}
+
+
+</div>
+            </div>
+            <div class="mr-item">
+                <div class="mr-diagram">
+                    <div class="mr-text-diagram">
+                        {% for i in range(0, 8) -%}
+                        Match Reports
+                        {% endfor %}
+                    </div>
+                </div>
+            {% icon 'bafc-logo' %}
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+                <div class="mr-listings">
+                    <h4 class="mr-listing-title">Match Reports</h4>
+                    <ul role='list' class='articles__list flow'>
+                        {% for post in collections.posts | reverse %}
+                            {% set exclude = loop.first %}
+                           
+                            {% if exclude %}
+                               {# remove first post as it is used above #}
+                            {% else %}
+                            {% include 'article-snippet.njk' %}
+                            {% endif %}
+                            
+                        {% endfor %}
+                    </ul>
+                </div>
+</div>
+
+

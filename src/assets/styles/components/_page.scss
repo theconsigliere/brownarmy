@@ -1,0 +1,197 @@
+
+
+main {
+    position: relative;
+    .homepage-background {
+        z-index: -1;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+}
+
+
+.home-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon--bafc-logo {
+    width: 15rem;
+    height: 15rem;
+
+    @media (min-width: #{$screen-md}) {
+        width: 20rem;
+        height: 20rem;
+       }
+}
+
+.moto--label {
+    background: var(--gold);
+    width: fit-content;
+    padding: 1rem;
+    color: var(--white);
+    margin: 2rem 0;
+    transform: rotate(
+354deg);
+transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+&:hover {
+    transform: rotate(360deg);
+}
+}
+
+.home-bafc-text-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+    p {
+        text-align: center;
+        max-width: 80%;
+    }
+}
+
+// Match reports page
+
+.mr-container-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+
+    @media (min-width: #{$screen-lg}) {
+       flex-direction: row;
+      }
+}
+
+.mr-item {
+    width: 100%;
+    position: relative;
+    flex: 1;
+    max-height: 100vh;
+
+    @media (min-width: #{$screen-lg}) {
+        width: 50%;
+    }
+
+}
+
+.mr-diagram {
+    position: relative;
+}
+
+.mr-text-diagram {
+    width: 100%;
+    height: 100%;
+    font-size: 12vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    color: var(--gold);
+    opacity: 0.4;
+
+    @media (min-width: #{$screen-lg}) {
+        font-size: 6.5vw;
+        line-height: 1.2;
+    }
+}
+
+.mr-item .icon--bafc-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mr-item-inner {
+    padding: 0 1rem;
+    @include center-center;
+    height: 100%;
+}
+
+.latest-post-item {
+
+
+    .moto--label {
+        margin-top: 0;
+    }
+    .snippet__title {
+        line-height: 1;
+        margin-bottom: 1.5rem;
+    }
+
+    .snippet__meta {
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+}
+
+.articles__list {
+    @include start-start;
+    flex-wrap: wrap;
+
+    .article-snippet {
+        width: 100%;
+
+        @media (min-width: #{$screen-md}) {
+            width: 50%;
+        }
+
+        @media (min-width: #{$screen-xl}) {
+            width: 30%;
+        }
+    
+
+    }
+}
+
+.mr-listings {
+    margin-top: 1rem;
+
+    @media (min-width: #{$screen-lg}) {
+      margin-top: 0;
+    }
+
+}
+
+.latest-post-item {
+    padding: 1.1rem 0;
+    @include center-center-column;
+
+    @media (min-width: #{$screen-sm}) {
+        padding: 1.1rem;
+    }
+
+    @media (min-width: #{$screen-lg}) {
+        @include start-center-column;
+    }
+
+    @media (min-width: #{$screen-xl}) {
+        padding: 0 3rem;
+    }
+}
+
+.mr-container {
+    max-height: initial;
+    overflow: hidden;
+
+    @media (min-width: #{$screen-lg}) {
+        max-height: 100vh;
+    }
+}
+

@@ -1,0 +1,46 @@
+.btn {
+    background: var(--brown);
+    padding: 1rem 2rem;
+    position: relative;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: block;
+    width: fit-content;
+
+    &:before {
+        position: absolute;
+        content: '';
+        width: 95%;
+        height: 90%;
+        top: 5%;
+        left: 2.5%;
+        border: 3px solid var(--white);
+        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    &:hover {
+        background: var(--gold);
+      //  color: var(--brown);
+
+        &:before {
+          //  border-color: var(--brown);
+        }
+     
+
+    }
+}
+
+.post-link {
+    color: var(--gold);
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+   border-bottom: 2px solid var(--gold);
+}
+

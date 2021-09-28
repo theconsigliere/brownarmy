@@ -1,0 +1,25 @@
+<header class="header" role="banner">
+    <div class="header__inner container">
+        <div class="header__left">
+        
+        <a href="/" class="header-logo">
+           <div id="logo">
+            {% icon "headerlogo" %}
+           </div>
+        <span class="header-logo-title">Brown Army</span>
+        </a>
+        </div>
+        <div class="header__right">
+            {% include "navigation.njk" %}
+        </div>
+    </div>
+    <div class="header-marquee">
+        <div class="track">
+            <div class="content">
+            {% for i in range(0, 8) -%}
+                . Tip of the day Always flush .
+            {% endfor %}
+            </div>
+        </div>
+   </div>
+</header>

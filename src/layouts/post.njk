@@ -1,0 +1,67 @@
+---
+layout: base
+---
+<article class="main-article">
+<div class="container container--narrow flow">
+
+    <div class="main-article-top">
+    
+    <h4 class="white moto--label">LATEST REPORT</h4>    
+        <h1 class="article-title">
+        {{ title }}
+        </h1>
+        <div class="article-author">By {{ author }}</div>
+        <h6 class="article-date">{{ date | postDate }}</span></h6>
+        
+    </div>
+    {% if image %}
+     <figure class="main-article__figure">
+      <img src="{{ image }}" alt="{{ imageAlt }}">
+      <figcaption>
+       {{ imageAlt }}
+      </figcaption>
+    </figure>
+    {% endif %}
+
+    <div class="article-body-section">
+
+    <div class="ab-text-area">
+
+      <blockquote class='h5'>
+   {{ description }}
+  </blockquote>
+
+    {{ content | safe }}
+    
+    </div>
+
+                        <div class="article-listings ab-listings">
+                    <p class="article-listing-title">Match Reports</p>
+                    <ul role='list' class='al-list'>
+                           {% set latest_post = collections.posts  | reverse %}
+                        {% for post in latest_post.slice(0,5)%}
+                         
+                        <li class='article-list--snippet'>
+                            <article class="al-snippet">                      
+                            <p class="al-snippet__title">{{post.data.title}}</p>
+                            <p class="al-snippet__meta">{{ post.date | postDate }}</p>
+                            <a href="{{post.url}}" class="post-link">Continue reading</a>
+                            </article>
+                            </li>
+                        {% endfor %}
+                        <li class="al-last-link">
+                         <a class="article-listing-title" href='/match-reports'>See all Reports</a>
+                        </li>
+                    </ul>
+                </div>
+    
+    </div>
+
+
+
+
+
+    
+  
+</div>
+</article>
