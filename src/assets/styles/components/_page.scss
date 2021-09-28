@@ -172,6 +172,7 @@ transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 .latest-post-item {
     padding: 1.1rem 0;
     @include center-center-column;
+    text-align: center;
 
     @media (min-width: #{$screen-sm}) {
         padding: 1.1rem;
@@ -179,6 +180,7 @@ transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
     @media (min-width: #{$screen-lg}) {
         @include start-center-column;
+        text-align: left;
     }
 
     @media (min-width: #{$screen-xl}) {
