@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: theconsigliere/brownarmy
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "dist/assets/images" # Media files will be stored in the repo under static/images/uploads
