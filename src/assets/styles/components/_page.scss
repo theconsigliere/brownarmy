@@ -181,10 +181,12 @@ transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (min-width: #{$screen-lg}) {
         @include start-center-column;
         text-align: left;
+        max-width: 100%;
     }
 
     @media (min-width: #{$screen-xl}) {
         padding: 0 3rem;
+        max-width: 80%;
     }
 }
 
