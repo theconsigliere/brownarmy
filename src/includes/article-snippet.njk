@@ -1,11 +1,13 @@
 
     <li class='article-snippet'>
     <article class="snippet">
-    {% if post.data.image %}
-      <img class='default-blog' src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"> 
-      {% else %}
-      <img class='default-blog' src="/assets/images/posts/default.jpeg" alt="">
-    {% endif %}
+    <div class="as-image-holder">
+        {% if post.data.image %}
+          <img class='default-blog' src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"> 
+          {% else %}
+          <img class='default-blog' src="/assets/images/posts/default.jpeg" alt="">
+        {% endif %}
+    </div>
    
     <h5 class="snippet__title">{{post.data.title}}</h5>
   <p class="snippet__meta">by <span>{{post.data.author}}</span> on <span>{{ post.date | postDate }}</span></p>

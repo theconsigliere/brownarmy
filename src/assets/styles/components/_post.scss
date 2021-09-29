@@ -41,9 +41,18 @@ article.snippet {
     }
 }
 
-img.default-blog {
-    width: 100%;
+
+.as-image-holder {
+    height: 25rem;
     border-radius: 15px;
+    overflow: hidden;
+
+    img.default-blog {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
 }
 
 .article-body-section {
