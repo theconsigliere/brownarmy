@@ -5,7 +5,7 @@ description: "Tuesday evening saw another enthralling encounter at the Estadio
   Chicken-Odemwingies. "
 author: "'Non Stop' Nick Trott"
 date: 2021-08-31T08:58:47.883Z
-image: /assets/images/image-8-1-.jpg
+image: https://www.dropbox.com/s/qh13krvxo5tqdbw/Image%208%20%281%29.jpg?raw=1
 imageAlt: "Cameron Hodder being nutmegged at the Estadio de Mirwin. "
 tags:
   - post
