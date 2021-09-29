@@ -5,7 +5,7 @@ description: "New stadium, new line ups, new kick-off time, but same old result
   Chicken-Odemwingies on Tuesday night. "
 author: "'Non Stop' Nick Trott"
 date: 2021-09-21T20:21:28.417Z
-image: https://www.dropbox.com/s/m2x4t0ts5eir08k/go%20%281%29.jpg
+image: https://www.dropbox.com/s/m2x4t0ts5eir08k/go%20%281%29.jpg?raw=1
 imageAlt: "I am not, nor will I ever be sorry for these photoshops. "
 tags:
   - post
