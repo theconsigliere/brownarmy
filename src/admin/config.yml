@@ -6,8 +6,8 @@ media_folder: "dist/assets/images" # Media files will be stored in the repo unde
 public_folder: "/assets/images" # The src attribute for uploaded media will begin with /images/uploads
 
 collections: 
-  - name: "posts"
-    label: "Match Reports"
+  - label: "Match Reports"
+    name: "posts"
     src: "src/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
