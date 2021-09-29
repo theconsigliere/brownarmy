@@ -6,7 +6,7 @@ description: "Chicken-Odemwingies could hardly believe their Jedis, as on loan
   seal victory. "
 author: '"Non Stop" Nick Trott'
 date: 2021-09-07T21:25:38.981Z
-image: /assets/images/image-7-1-.jpg
+image: https://www.dropbox.com/s/mp7ms1hk2u8cydq/Image%207%20%281%29.jpg?raw=1
 imageAlt: "Choda uses the force to great effect. "
 tags:
   - post
