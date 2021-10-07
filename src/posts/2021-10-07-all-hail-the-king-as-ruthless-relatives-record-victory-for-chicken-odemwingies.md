@@ -5,7 +5,7 @@ description: The cold grasp of winter did nothing to subdue the fiery rivalry
   shared between the Brown Army and Chicken-Odemwingies on Tuesday evening.
 author: Nick Trott
 date: 2021-10-05T09:03:36.786Z
-image: /assets/images/download-4-.png
+image: https://www.dropbox.com/s/bkjg78jqdqk49qd/image.png?raw=1
 imageAlt: Forget Elvis, Rosie is the true King
 tags:
   - post
