@@ -6,7 +6,7 @@ description: " The only thing to brighten up these longer nights is another
   chapter in their history on Tuesday evening. "
 author: Nick Trott
 date: 2021-10-13T14:51:22.292Z
-image: /assets/images/download-5-.jpg
+image: https://www.dropbox.com/s/hmj4wfg8n7fb6s2/download%20%285%29%20copy.png?raw=1
 imageAlt: Cameron 'The Cat' Hodder
 tags:
   - post
