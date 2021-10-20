@@ -6,7 +6,7 @@ description: "When it rains, it pours, and there was certainly a deluge of goals
   captivating game.  "
 author: Nick Trott
 date: 2021-10-20T08:57:05.854Z
-image: https://www.dropbox.com/s/18r45p0oeb95c9r/download%20%286%29.png?dl=0
+image: https://www.dropbox.com/s/0mhyrj5h6xwp9z5/download%20%286%29%20copy.png?raw=1
 imageAlt: "The weather certainly didn't dampen anyone's spirits. "
 tags:
   - post
