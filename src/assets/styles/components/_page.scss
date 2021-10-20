@@ -201,11 +201,11 @@ svg.icon.icon--co-logo {
 
 .logo-vs {
     @include center-between-column;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
 
     @media (min-width: #{$screen-lg}) {
         @include center-between;
-        margin-bottom: 0;
+        margin: 2rem 0;
     }
 }
 
