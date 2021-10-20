@@ -8,8 +8,8 @@ date: 2021-08-31T08:58:47.883Z
 image: https://www.dropbox.com/s/qh13krvxo5tqdbw/Image%208%20%281%29.jpg?raw=1
 imageAlt: "Cameron Hodder being nutmegged at the Estadio de Mirwin. "
 tags:
+  - reports
   - post
-  - match-reports
 ---
 Some of the more ‘senior’ players will be feeling their sore legs today, with a select few experiencing a kind of phantom limb sensation which can only come from the embarrassment of a nutmeg. 
 

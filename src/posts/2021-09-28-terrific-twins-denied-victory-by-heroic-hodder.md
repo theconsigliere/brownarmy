@@ -8,8 +8,8 @@ date: 2021-09-21T20:21:28.417Z
 image: https://www.dropbox.com/s/m2x4t0ts5eir08k/go%20%281%29.jpg?raw=1
 imageAlt: "I am not, nor will I ever be sorry for these photoshops. "
 tags:
+  - reports
   - post
-  - match-reports
 ---
 Chicken-Odemwingies, however, were devoid of inspiration, of impotence. Up step Torbay’s Tweedle Dee and Tweedle Dum. Max and Harri Kirwin occupied the opposition’s box together much like they did their mother’s womb for large portions of the game. This natural connection was vital in seeing Wingies clawing back at the Skid Mark’s lead.  
 

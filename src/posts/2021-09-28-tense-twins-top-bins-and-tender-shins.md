@@ -8,8 +8,8 @@ date: 2021-09-07T21:22:19.878Z
 image: https://www.dropbox.com/s/2fyy4q1tf3gyp91/chode%20%281%29.jpg?raw=1
 imageAlt: Chode in the hole
 tags:
+  - reports
   - post
-  - match-reports
 ---
 Ecsquisit, beautiful, technically excellent, and flawless. These are just a few of the words which will not be used to describe the latest installment of the Dirty Martini Derby at the Estadio de Mirwin on Wednesday night. 
 

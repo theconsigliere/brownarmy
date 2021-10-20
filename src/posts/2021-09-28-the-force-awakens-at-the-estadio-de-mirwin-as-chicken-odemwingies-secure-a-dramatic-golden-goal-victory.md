@@ -9,7 +9,10 @@ date: 2021-09-07T21:25:38.981Z
 image: https://www.dropbox.com/s/mp7ms1hk2u8cydq/Image%207%20%281%29.jpg?raw=1
 imageAlt: "Choda uses the force to great effect. "
 tags:
-  - post
+  - reports
+  - post  
+
+
 ---
 There are few finer sights in football than seeing the old pigskin fly off a boot and into the top corner. Fans could therefore be considered spoilt after a feast of ferocious finishing took centre stage in Tuesday night’s Dirty Martini Derby. 
 

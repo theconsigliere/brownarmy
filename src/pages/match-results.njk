@@ -1,0 +1,73 @@
+---
+layout: base
+permalink: /match-results/
+eleventyNavigation:
+  key: Match Results
+---
+
+  <img class='homepage-background' src="/assets/images/background.jpg" alt="">
+<div class="container">
+    <div class="home-centered">
+    
+      <div class="home-bafc-text-group">
+      <div class="logo-vs">
+         {% icon 'bafc-logo' %}
+          <h4 class="white moto--label">vs</h4>
+            {% icon 'co-logo' %}
+      </div>
+       
+   
+        <h1 class='home--title'>Coming Soon</h1>
+        <a href="/match-reports" class="btn">match reports</a>
+      </div>
+    </div>
+</div>
+
+
+    {#  <div class="mr-container">
+      
+            {% icon 'bafc-logo' %}
+            {% icon 'co-logo' %}
+
+        
+                        {# {% set latest_post = collections.results  | reverse %}
+                        {% for post in latest_post.slice(0,1)%}
+                            <div class="latest-post-item">    
+            
+                        
+                        {% set words = "hello beautiful world" | split(" ") %}
+                                <ul>
+                                    {% for word in words %}<li>{{ word }}</li>{% endfor %}
+                                </ul>
+
+                                    {% set score = post.data.score | split("-") %}
+                                  
+                                        <ul class="e">
+                                            {% for item in score %}<li>{{ item }}</li>{% endfor %}
+                                        </ul>
+                                <li>{{ post.data.brownArmyScorers }}</li>
+                                <li>{{ post.data.chickenOdemwingiesScorers }}</li>
+                                <li>{{ post.date | postDate }}</li>
+                            </div>
+                        {% endfor %}
+
+                        <div class="container">
+                <div class="mr-listings">
+                    <h4 class="mr-listing-title">Match Results</h4>
+                    <ul role='list' class='articles__list flow'>
+                        {% for post in collections.results | reverse %}
+                            {% set exclude = loop.first %}
+                            #}
+                            {# {% if exclude %}
+                               {# remove first post as it is used above #}
+                            {# {% else %}
+                            {% include 'article-result.njk' %}
+                            {% endif %}
+                            
+                        {% endfor %}  #}
+                    {# </ul>
+                </div>
+</div> 
+</div> #}
+
+

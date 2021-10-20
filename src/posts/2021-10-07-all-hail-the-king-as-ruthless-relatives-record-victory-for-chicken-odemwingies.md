@@ -8,6 +8,7 @@ date: 2021-10-05T09:03:36.786Z
 image: https://www.dropbox.com/s/bkjg78jqdqk49qd/image.png?raw=1
 imageAlt: Forget Elvis, Rosie is the true King
 tags:
+  - reports
   - post
 ---
 The cold grasp of winter did nothing to subdue the fiery rivalry shared between the Brown Army and Chicken-Odemwingies on Tuesday evening.

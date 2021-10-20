@@ -16,6 +16,17 @@ module.exports = function (config) {
         svgSpriteShortcode: "iconsprite"
     })
 
+    // create a custom filtered collection that only matches a specific tag in `tags`
+    config.addCollection("results", function(collectionApi) {
+        return collectionApi.getFilteredByTag("results");
+    });
+
+        // create a custom filtered collection that only matches a specific tag in `tags`
+        config.addCollection("reports", function(collectionApi) {
+            return collectionApi.getFilteredByTag("reports");
+        });
+      
+
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])

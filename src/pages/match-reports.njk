@@ -10,7 +10,7 @@ eleventyNavigation:
             <div class="mr-item">
                 
 <div class="mr-item-inner">
-                    {% set latest_post = collections.posts  | reverse %}
+                    {% set latest_post = collections.reports  | reverse %}
                         {% for post in latest_post.slice(0,1)%}
                             <div class="latest-post-item">    
                                   <h4 class="white moto--label">LATEST REPORT</h4>                        
@@ -41,7 +41,7 @@ eleventyNavigation:
                 <div class="mr-listings">
                     <h4 class="mr-listing-title">Match Reports</h4>
                     <ul role='list' class='articles__list flow'>
-                        {% for post in collections.posts | reverse %}
+                        {% for post in collections.reports | reverse %}
                             {% set exclude = loop.first %}
                            
                             {% if exclude %}
