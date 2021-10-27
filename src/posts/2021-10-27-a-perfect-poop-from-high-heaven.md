@@ -7,7 +7,8 @@ date: 2021-10-27T10:47:39.466Z
 image: https://www.dropbox.com/s/yhyvbrn4nmo4085/chaz.png?raw=1
 imageAlt: This image is now going to haunt my dreams ...
 tags:
-  - match-report
+  - reports
+  - post
 ---
 The game started slow as both teams worked on getting into the groove after excessive alcohol poisoning, but brown army began pulling away with an important linking of passes. Andrew ‘Megs’ took a few fancy touches and saw off Mirwin easily early in the game.
 
