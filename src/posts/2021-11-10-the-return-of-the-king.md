@@ -9,7 +9,7 @@ image: https://www.dropbox.com/s/s6g6d2hx2riwy1d/Screenshot%202021-11-10%20at%20
 imageAlt: The Return of the King
 tags:
   - post
-  - match-report
+  - reports
 ---
 The two teams served up a treat for their adoring supporters yet again, as much rotated squads battled it out for the victory. 
 
